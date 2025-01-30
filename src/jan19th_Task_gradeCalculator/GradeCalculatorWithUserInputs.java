@@ -46,8 +46,9 @@ public class GradeCalculatorWithUserInputs {
         else {
             System.out.println("Invalid score! Please enter a score between 0 and 100.");
         }
-
+        System.out.println("Your Score is "+score);
         System.out.println("Your grade is "+Grade);
+
 
     }
 }
