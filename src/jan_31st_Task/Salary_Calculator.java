@@ -15,7 +15,7 @@ Net Salary = Gross Salary - Tax Deduction.*/
 
 import java.util.Scanner;
 
-public class Salary_Calculation {
+public class Salary_Calculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Basic Salary");

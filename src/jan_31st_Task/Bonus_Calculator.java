@@ -11,13 +11,13 @@ Define the bonus structure based on salary and years of experience.
 :- If years of experience is between 4 and 6 years: Bonus is 10% of the salary.
 :- If years of experience is greater than 6 years: Bonus is 15% of the salary.
 */
-public class SalaryCalculator {
+public class Bonus_Calculator {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the Salary");
         double salary = sc.nextDouble();
-        System.out.println("ENter the year of experience: ");
+        System.out.println("Enter the year of experience: ");
         float yearOfExperience =sc.nextFloat();
         double bonus = 0;
 
